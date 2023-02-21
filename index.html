@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi CV</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif
+    }
+    h2{
+        text-align: center;
+        padding: 10px
+    }
+    
+    body{
+        width: 100%;
+        height: 100%;
+        background: url(img/pexels-antonio-borriello-1297611.jpg);
+        background-attachment: fixed;;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover
+        
+        
+    }
+    header{
+        padding: 10px;
+        background: rgb(51,51,51);
+        color: #fff
+    }
+    div{
+        width: 80vw;
+        background: #fff8;
+        margin:10vh 10vw;
+        padding: 40px;
+        border-radius: 10px;
+        -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(5px);
+            background: rgba(255,255,255,0.3);
+        box-shadow:0 0 30px -10px #000;
+    }
+    
+    li{
+        padding: 10px;
+    }
+    
+    video, iframe{
+        box-shadow:0 0 50px -10px #000;
+        border-radius: 5px;
+        
+    }
+    .mediaymap{
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    </style>
+<body>
+    <header><h1>Mi Curriculum Vitae</h1></header>
+    <div class="mediaymap">
+       <h2>Video de Presentaci&oacute;n</h2>
+       <video src="media/presentacion.mp4" controls height="225px" width="400px">
+           
+       </video>
+       <h2>Location</h2>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d767.6508937182734!2d-97.1882565291582!3d18.7950832616773!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1676943467463!5m2!1ses-419!2smx" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div>
+    <div class="datospersonales">
+       <h2>Datos personales</h2>
+        <ul>
+            <li>Nombre: Cristian Emir Altamirano Andrade</li>
+            <li>Fecha de nacimiento:22 de Julio de 2002</li>
+            <li>Lugar de nacimiento: Nogales, Veracruz</li>
+        </ul>
+        <h2>Formaci&oacute;n academica</h2>
+        <ul>
+            <li>Universidad: Tecnol&oacute;gico Nacional de M&eacute;xico Campus Orizaba</li>
+            <li>Bachillerato: Centro de Estudios Tecnol&oacute;gicos, Industrial y de Servicios No. 146 </li>
+            <li>Secundaria: Escuela Secundaria General Ignacio Manuel Altamirano</li>
+
+        </ul>
+        <h2>Experiencia Laboral</h2>
+            <ul>
+                <li>Desarrollo de Aplicaciones Web en Lost Limerence&copy;</li>
+                <li>Administraci&oacute;n de Bases de Datos en Arasaka&copy;</li>
+                <li>Seguridad Inform&aacute;tica en MiliTech&copy;</li>
+            </ul>
+    </div>
+</body>
+</html>
